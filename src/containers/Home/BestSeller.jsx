@@ -2,6 +2,7 @@ import React from "react";
 import { styled } from "styled-components";
 import BestBooks from "../../components/Home/BestSeller/BestBooks";
 import Interest from "../../components/Home/BestSeller/Interest";
+import { TextBox } from "../../components/Common/TextBoxes";
 
 export const BookItem = [
   {
@@ -431,38 +432,13 @@ export const BookItem2 = [
 
 const BestSellerContainer = styled.div`
   width: 100%;
+  letter-spacing: -1.2px;
 `;
 
 const Inner = styled.div`
   width: 1100px;
-  height: 3000px;
+  height: 2700px;
   margin: 0 auto;
-`;
-
-const TextBox = styled.div`
-  width: 500px;
-  height: 300px;
-  margin: 0 auto;
-  margin-top: 100px;
-  text-align: center;
-
-  .text1 {
-    height: 50%;
-    font-size: 50px;
-    font-weight: 600;
-    color: #333;
-    p {
-      margin-bottom: 8px;
-    }
-  }
-  .text2 {
-    height: 50%;
-    font-size: 23px;
-    color: #767676;
-    p {
-      margin-bottom: 8px;
-    }
-  }
 `;
 
 const BestSeller = () => {

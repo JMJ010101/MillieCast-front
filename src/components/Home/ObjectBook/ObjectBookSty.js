@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 export const AudioBookContainer = styled.div`
   width: 100%;
   height: 900px;
+  letter-spacing: -1.2px;
   background-color: #f7f7f7;
 `;
 
@@ -11,31 +12,6 @@ export const Inner = styled.div`
   height: 900px;
   margin: 0 auto;
   overflow: auto;
-`;
-
-export const TextBox = styled.div`
-  width: 500px;
-  height: 230px;
-  margin: 0 auto;
-  margin-top: 80px;
-  margin-bottom: 30px;
-  text-align: center;
-  .text1 {
-    height: 60%;
-    font-size: 45px;
-    font-weight: 600;
-    color: #333;
-    line-height: 55px;
-  }
-  .text2 {
-    height: 40%;
-    font-size: 23px;
-    color: #767676;
-    line-height: 30px;
-    p {
-      margin-bottom: 8px;
-    }
-  }
 `;
 
 export const Button = styled.button`

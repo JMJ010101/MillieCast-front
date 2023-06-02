@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 export const LoginContainer = styled.div`
   height: 100vh;
   display: flex;
+  letter-spacing: -1.2px;
 `;
 
 export const ImageDiv = styled.div`
@@ -38,29 +39,48 @@ export const TextBox = styled.div`
   }
 `;
 
-export const LoginInput = styled.div`
+export const LoginInput = styled.form`
+  width: 480px;
   margin-top: 13px;
   margin: 0 auto;
+  div {
+    margin-left: 3px;
+    color: #8b8b8b;
+  }
+`;
+
+export const InputDiv = styled.div`
+  width: 450px;
+  font-size: 11px;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  ::placeholder {
+    color: #c1c1c1;
+  }
   input {
-    width: 480px;
-    font-size: 15px;
-    padding: 17px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
+    font-size: 17px;
+    border: none;
+    outline: none;
     border-radius: 4px;
   }
 `;
 
 export const LoginBtn = styled.button`
-  width: 516px;
+  width: 476px;
   background-color: #ffeb60;
   opacity: 0.5;
   color: #333;
   border: none;
   border-radius: 4px;
   padding: 17px;
-  font-size: 15px;
+  font-size: 16px;
   margin-top: 7px;
+  margin-left: 3px;
+  letter-spacing: -1.2px;
   cursor: pointer;
   :hover& {
     opacity: 1;
@@ -97,7 +117,7 @@ export const OrDiv = styled.div`
   color: #a5a5a5;
   display: flex;
   .line {
-    width: 233px;
+    width: 215px;
     border-top: 1px solid #a5a5a5;
     margin-top: 18px;
   }

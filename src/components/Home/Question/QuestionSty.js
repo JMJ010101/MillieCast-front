@@ -2,6 +2,7 @@ import { styled } from "styled-components";
 
 export const QuestionContainer = styled.div`
   width: 100%;
+  letter-spacing: -1.2px;
   background-color: #ffed61;
 `;
 
@@ -27,7 +28,7 @@ export const QuestionBox = styled.div`
   margin-bottom: 75px;
 `;
 export const Questions = styled.div`
-  height: ${(props) => (props.selected ? "auto" : "20px")};
+  /* height: ${(props) => (props.selected ? "auto" : "20px")}; */
   max-height: ${(props) => (props.selected ? "1000px" : "20px")};
   transition: max-height 1s ease-in-out;
   margin-bottom: 20px;

@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 export const FeeContainer = styled.div`
   width: 100%;
   background-color: #ffed61;
+  letter-spacing: -1.2px;
 `;
 
 export const Inner = styled.div`
@@ -10,32 +11,6 @@ export const Inner = styled.div`
   height: 780px;
   margin: 0 auto;
   overflow: auto;
-`;
-
-export const TextBox = styled.div`
-  width: 600px;
-  height: 280px;
-  margin: 0 auto;
-  margin-top: 100px;
-  text-align: center;
-
-  .text1 {
-    height: 55%;
-    font-size: 50px;
-    font-weight: 600;
-    color: #333;
-    p {
-      margin-bottom: 8px;
-    }
-  }
-  .text2 {
-    height: 45%;
-    font-size: 23px;
-    color: #767676;
-    p {
-      margin-bottom: 8px;
-    }
-  }
 `;
 
 export const FeeBox = styled.div`

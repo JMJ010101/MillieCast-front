@@ -7,43 +7,19 @@ import Card2 from "../../images/complete/card_mania.png";
 import Card3 from "../../images/complete/card_pick.png";
 import Card4 from "../../images/complete/card_hidden.png";
 import CompleteImg from "../../components/Home/Complete/CompleteImg";
+import { TextBox } from "../../components/Common/TextBoxes";
 
 const CompleteContainer = styled.div`
   width: 100%;
   background-color: #f7f7f7;
+  letter-spacing: -1.2px;
 `;
 
 const Inner = styled.div`
   width: 1100px;
-  height: 850px;
+  height: 780px;
   margin: 0 auto;
   overflow: auto;
-`;
-
-const TextBox = styled.div`
-  width: 600px;
-  height: 300px;
-  margin: 0 auto;
-  margin-top: 100px;
-  text-align: center;
-
-  .text1 {
-    height: 50%;
-    font-size: 50px;
-    font-weight: 600;
-    color: #333;
-    p {
-      margin-bottom: 8px;
-    }
-  }
-  .text2 {
-    height: 50%;
-    font-size: 23px;
-    color: #767676;
-    p {
-      margin-bottom: 8px;
-    }
-  }
 `;
 
 const ImgContainer = styled.div`
