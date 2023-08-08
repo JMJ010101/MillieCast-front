@@ -8,9 +8,9 @@ MillieCast (밀리의 서재 클론 프로젝트)
 
 ### 기술 스택
 React 
-Javascript 
-HTML 
-CSS 
+ Javascript 
+ HTML 
+ CSS 
 
 
 ### 메인 화면
